@@ -1,4 +1,4 @@
-FROM apache/airflow:2.2.5
+FROM apache/airflow:2.3.1
 
 USER root
 
@@ -8,9 +8,9 @@ RUN apt-get update && \
 USER airflow
 
 # Install airflow related files onto the host
-COPY ./src/config/airflow.cfg /opt/airflow/airflow.cfg
-COPY ./src/plugins /opt/airflow/plugins
-COPY ./src/dags /data/airflow/dags
+COPY ./config/airflow.cfg /opt/airflow/airflow.cfg
+COPY ./plugins /opt/airflow/plugins
+COPY ./dags /data/airflow/dags
 
 COPY ./requirements.txt /tmp/requirements.txt
 
