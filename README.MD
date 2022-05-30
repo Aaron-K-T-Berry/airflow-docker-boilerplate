@@ -44,6 +44,6 @@ You should then configure your code editor to use this venv for sourcing modules
 
 If you have any questions or comments about this feel free to reach out throw an issue on the repo or the contact options below.
 
-- [Twitter]()
+- [Twitter](https://twitter.com/Aaron_KT_Berry)
 
-- [Linkedin]()
+- [Linkedin](https://www.linkedin.com/in/aaron-kt-berry/)
