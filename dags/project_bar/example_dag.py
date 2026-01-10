@@ -9,7 +9,7 @@ import pendulum
 
 with DAG(
     dag_id='project_bar_example_dag',
-    schedule_interval='0 0 * * *',
+    schedule='0 0 * * *',
     start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
     catchup=False,
     dagrun_timeout=datetime.timedelta(minutes=60),
@@ -56,6 +56,3 @@ this_will_skip = BashOperator(
 )
 
 this_will_skip >> run_this_last
-
-if __name__ == "__main__":
-    dag.cli()
