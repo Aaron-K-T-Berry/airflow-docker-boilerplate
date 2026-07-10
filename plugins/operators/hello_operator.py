@@ -1,4 +1,4 @@
-from airflow.models.baseoperator import BaseOperator
+from airflow.sdk import BaseOperator
 
 
 class HelloOperator(BaseOperator):
