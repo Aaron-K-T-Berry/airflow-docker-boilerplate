@@ -1,4 +1,4 @@
-awscli>=1.45.50
+awscli>=1.45.55
 requests>=2.34.2
 beautifulsoup4>=4.15.0
 pendulum>=3.2.0
