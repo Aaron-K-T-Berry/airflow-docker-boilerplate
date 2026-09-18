@@ -70,6 +70,4 @@ This stack follows the Airflow 3 Docker Compose layout:
 
 If you have any questions or comments about this feel free to reach out through an issue on the repo or the contact options below.
 
-- [Twitter](https://twitter.com/Aaron_KT_Berry)
-
 - [Linkedin](https://www.linkedin.com/in/aaron-kt-berry/)
